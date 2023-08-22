@@ -2,11 +2,11 @@
 import streamlit as st
 
 def main():
-    st.title("Personalized Greeting App")
+    st.title("App de saludos personalizados")
 
-    name = st.text_input("Enter your name:")
+    name = st.text_input("Por favor ingrese su nombre:")
     if name:
-        st.write(f"Hello, {name}! Welcome to your personalized greeting app.")
+        st.write(f"Hola, {name}! Te damos la bienvenida a tu app de saludos personalizados.")
 
 if __name__ == "__main__":
     main()
