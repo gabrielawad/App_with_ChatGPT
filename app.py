@@ -6,7 +6,7 @@ def main():
 
     name = st.text_input("Por favor ingrese su nombre:")
     if name:
-        st.write(f"Hola, {name}! Te damos la bienvenida a tu app de saludos personalizados.")
+        st.write(f"¡Hola, {name}! Te damos la bienvenida a tu app de saludos personalizados.")
 
 if __name__ == "__main__":
     main()
