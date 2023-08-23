@@ -1,8 +1,8 @@
-pip install wikipedia
+#pip install wikipedia
 
 # Import necessary libraries
 import streamlit as st
-import wikipedia
+#import wikipedia
 
 # App title and header
 st.title("Country Information App")
@@ -23,7 +23,7 @@ continent = st.selectbox("Select Continent", list(countries_by_continent.keys())
 
 # Dropdown for selecting a country based on the continent selection
 country = st.selectbox("Select Country", countries_by_continent.get(continent, []))
-
+"""
 # Fetch country information from Wikipedia
 page = wikipedia.page(country)
 capital = page.summary.split("Capital: ")[1].split("\n")[0]
@@ -46,3 +46,4 @@ st.write(f"Population: {population}")
 st.subheader("Five Main Tourist Attractions")
 for i, attraction in enumerate(attractions_list[:5]):
     st.write(f"{i+1}. {attraction}")
+"""
