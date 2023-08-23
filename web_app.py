@@ -1,6 +1,6 @@
 # Import necessary libraries
 import streamlit as st
-import wikipedia
+import wikipediaapi
 
 # App title and header
 st.title("Country Information App")
