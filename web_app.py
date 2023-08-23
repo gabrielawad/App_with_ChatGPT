@@ -1,6 +1,8 @@
+pip install wikipedia
+
 # Import necessary libraries
 import streamlit as st
-import wikipediaapi
+import wikipedia
 
 # App title and header
 st.title("Country Information App")
