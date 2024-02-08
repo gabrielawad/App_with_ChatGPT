@@ -55,7 +55,7 @@ countries_by_continent = {
                 "Micronesia", "Nauru", "New Zealand", "Palau", 
                 "Papua New Guinea", "Samoa", "Solomon Islands", 
                 "Tonga", "Tuvalu", "Vanuatu"]
-}}
+}
 
 # Dropdown for selecting a continent
 continent = st.selectbox("Select Continent", list(countries_by_continent.keys()))
